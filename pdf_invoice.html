@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice</title>
+    <style>
+      body {
+        background-color: white;
+        padding: 2%;
+        font-family: system-ui;
+        font-size: 13px;
+      }
+      .imgInfo-n-invoice {
+        display: flex;
+        justify-content: space-between;
+      }
+      .imgInfo {
+        display: flex;
+        justify-content: space-around;
+      }
+      .img {
+        padding-right: 10px;
+      }
+      .userImg {
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+      }
+      .info div{
+        margin-bottom: 4px;
+      }
+      .invoice div{
+        margin-bottom: 4px;
+      }
+      table {
+        width: 100%!important;
+        border-collapse: collapse;
+      }
+      .table-billTo {
+        margin-top: 20px;
+      }
+      .billTo-head {
+        text-align: left;
+      }
+      .Bill_to_col {
+        width: 57%;
+      }
+      .billTo-info {
+        margin-bottom: 2%;
+      }
+      .table-item{
+        width: 100%;
+
+      }
+      .itemHead {
+        background-color: #d1d3e496;
+        font-size: 13px;
+        padding: 16px !important;
+      }
+      thead.itemHead th {
+        padding: 10px;
+      }
+      .Col-border-gray {
+        box-shadow: -2px 0px 0px 0px #a7a5a5;
+      }
+      tr.row {
+        text-align: center;
+        height: 46px;
+      }
+      td.border-gray {
+        box-shadow: -1px 0px 0px 1px #a7a5a5;
+      }
+      td.tb-border-gray {
+        border-top: 1px solid #a7a5a5;
+        border-bottom: 1px solid #a7a5a5;
+      }
+      .cal-term{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1%;
+      }
+      .logo {
+    display: flex;
+    flex-direction: column;
+}
+.logo img {
+    width: 28%;
+}
+
+      .cal-input {
+        flex: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cal-input {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.cal-input label {
+    padding-right: 38px;
+    font-weight: 600;
+}
+.cal-input input {
+    width: 141px;
+    border-radius: 4px;
+    border: 1px solid #b6acac;
+    padding: 5px;
+}
+.term div {
+    margin-bottom: 51px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="imgInfo-n-invoice">
+      <div class="imgInfo">
+        <div class="img">
+          <img
+            class="userImg" src="https://qph.cf2.quoracdn.net/main-qimg-4b8caf5d3d267084b06c2530ba54820e-lq"
+          />
+        </div>
+        <div class="info">
+          <div>
+            <b>Company Name : Apes Innovation Private Limited </b>
+          </div>
+          <div>
+            <b>Addres : B-block Kaushal Tower Khairatabad ,Hyderabad </b>
+          </div>
+          <div>
+            <b>Email : Apesdev3@gamil.com </b>
+          </div>
+          <div>
+            <b>Phone : 8847328896 </b>
+          </div>
+        </div>
+      </div>
+      <div class="invoice">
+        <div>
+          <b>Invoice No : APESI75658456 </b>
+        </div>
+        <div>
+          <b>Date : 12-10-2022 </b>
+        </div>
+        <div>
+          <b>Due Date : 25-10-2022 </b>
+        </div>
+      </div>
+    </div>
+    <div class="table-billTo">
+      <table>
+        <thead class="billTo-head">
+          <th class="Bill_to_col">Bill To</th>
+          <th>Billing Address</th>
+          <th>shipping Address</th>
+          <th>Place OF Supply</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="Bill_to_col">
+              <div class="billTo-info">Customer Name : Robert</div>
+              <div class="billTo-info">phone : 9592875145</div>
+              <div class="billTo-info">
+                Email Id : nikhilbhatt10798@gmail.com
+              </div>
+            </td>
+            <td>khadri khadakmaff Rishikesh Dehradun</td>
+            <td>khadri khadakmaff Rishikesh Dehradun</td>
+            <td>Dehradun</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table-item">
+      <table class="itemTable">
+        <thead class="itemHead">
+          <th></th>
+          <th>Item Detail</th>
+          <th class="Col-border-gray" class="Col-border-gray">Quantity</th>
+          <th class="Col-border-gray">Rate</th>
+          <th class="Col-border-gray">Tax</th>
+          <th class="Col-border-gray">Amount</th>
+        </thead>
+        <tbody>
+          <tr class="row">
+            <td>1.</td>
+            <td></td>
+            <td class="Col-border-gray"></td>
+            <td class="Col-border-gray"></td>
+            <td class="Col-border-gray"></td>
+            <td class="Col-border-gray"></td>
+          </tr>
+          <tr class="row">
+            <td>2.</td>
+            <td></td>
+            <td class="Col-border-gray"></td>
+            <td class="Col-border-gray"></td>
+            <td class="Col-border-gray"></td>
+            <td class="Col-border-gray"></td>
+          </tr>
+          <tr class="row">
+            <td>3.</td>
+            <td></td>
+            <td class="Col-border-gray"></td>
+            <td class="Col-border-gray"></td>
+            <td class="Col-border-gray"></td>
+            <td class="Col-border-gray"></td>
+          </tr>
+          <tr class="row">
+            <td class="tb-border-gray"></td>
+            <td class="tb-border-gray"></td>
+            <td class="border-gray"></td>
+            <td class="border-gray"></td>
+            <td class="border-gray"></td>
+            <td class="border-gray"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="cal-term">
+        <div class="term">
+            <div>
+                <b>Customer Note</b>
+            </div>
+            <div>
+                <b>Terms And Condition</b>
+            </div>
+            <div class="logo">
+                <img src="https://static.wixstatic.com/media/36597d_460b43b6386e4a47856194732162cb54~mv2.jpg/v1/fill/w_69,h_75,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/16-11-213.jpg" alt="Apes-Logo">
+                <b>Powered by Apes Innovation</b>
+            </div>
+        </div>
+        <div class="calcu">
+            <div class="cal-input">
+                <label>Sub Total</label>
+                <input type="text" name="" id="">
+            </div>
+            <div class="cal-input">
+                <label>Discount</label>
+                <input type="text" name="" id="">
+            </div>
+            <div class="cal-input">
+                <label>Sales Tax</label>
+                <input type="text" name="" id="">
+            </div>
+            <div class="cal-input">
+                <label>Adjustment</label>
+                <input type="text" name="" id="">
+            </div>
+            <div class="cal-input">
+                <label>Total</label>
+                <input type="text" name="" id="">
+            </div>
+            <div class="cal-input">
+                <label>Total Amount Paid</label>
+                <input type="text" name="" id="">
+            </div>
+            <div class="cal-input">
+                <label>Amount Due</label>
+                <input type="text" name="" id="">
+            </div>
+            
+        </div>
+    </div>
+  </body>
+</html>
